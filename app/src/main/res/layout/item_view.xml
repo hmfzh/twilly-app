@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="32dp"
+    android:layout_marginVertical="16dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/color_bordertask"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Kerjain tubes mobpro" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="278dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito"
+            android:textSize="12sp"
+            tools:text="Lorem iet. Eget nisl, sagittis quadu nisl, sagittis quadu nisl, sagittis quadu nisl, sagittis quadu " />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito_bold"
+            android:textSize="12sp"
+            tools:text="22.10.2021" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@android:drawable/ic_menu_delete" />
+    <ImageView
+        android:id="@+id/update"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="40dp"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+</androidx.cardview.widget.CardView>

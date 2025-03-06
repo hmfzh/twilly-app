@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Twily</string>
+    <string name="task_todo">task and todo daily</string>
+    <string name="to_do">To Do</string>
+    <string name="icon">( ˃‿˂ )</string>
+    <string name="nokegiatan">Belum ada kegiatan</string>
+    <string name="hint">Tekan + untuk menambahkan</string>
+    <string name="tambah_kegiatan">Tambah Kegiatan</string>
+
+    <string name="add_details">Add Details</string>
+    <string name="add_date">Add Date</string>
+    <string name="konfirmasi">Konfirmasi</string>
+    <string name="add_taks">Add Taks</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="add">add</string>
+    <string name="delete">delete</string>
+    <string name="rectangle">rectangle</string>
+    <string name="calender">calender</string>
+    <string name="done">done</string>
+    <string name="add_judul">Add Judul</string>
+    <string name="edit">Edit</string>
+</resources>
